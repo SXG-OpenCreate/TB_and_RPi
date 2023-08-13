@@ -1,10 +1,10 @@
 
 # VSCODE執行Python, 環境設定
-1. 安裝VSCODE
+1. 安裝[VSCODE](https://code.visualstudio.com/download)
 2. 開啟VSODE內安裝插件 pyhton
    1. 開啟vscode軟體
    2. 畫面左側 點擊Extensions, 搜尋Python插件&安裝
-3. pc主機安裝 python
+3. pc主機安裝[python](https://www.python.org/downloads/)
 4. vscode 內選擇python版本(選第3項安裝的版本&路徑)
     1. 開啟vscode
     2. 快捷鍵 ctrl+shift+p (Command Palette..)
