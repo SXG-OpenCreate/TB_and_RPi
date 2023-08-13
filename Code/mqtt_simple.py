@@ -66,9 +66,10 @@ while True:
         payload += "\":" 
         payload += Humidity_list[i]
         payload +=','
-    payload = payload[:-1]
+        
+    payload = payload[:-1]#刪除最後一個逗號
     payload += "}"
-    print(payload)
+    
     ret = client1.publish("v1/devices/me/telemetry", payload)  # topic-v1/devices/me/telemetry
     print("Please check LATEST TELEMETRY field of your device")
     time.sleep(5)
